@@ -14,7 +14,7 @@ gdp_2023 = 2.07
 gdp_2024 = 2.17
 
 gdp_avg = (gdp_2022 + gdp_2023 + gdp_2024)/3
-gdp_grows = (gdp_2024/gdp_2022 - 1)*100
+gdp_growth = (gdp_2024/gdp_2022 - 1)*100
 
-print(f"Cредний ВВП за три года {gdp_avg} тыс.млрд")
-print(f"рост ВВП с 2022 по 2024: {gdp_grows}")
+print(f"Cредний ВВП за три года {gdp_avg:.2f} трлн долларов")
+print(f"рост ВВП с 2022 по 2024: {gdp_growth:.1f}%")
